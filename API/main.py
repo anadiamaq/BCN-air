@@ -1,6 +1,7 @@
 from flask import Flask
 
-app = Flask('BCN_air-api')
+app = Flask("BCN_air-api")
+
 
 @app.route("/")
 def title():

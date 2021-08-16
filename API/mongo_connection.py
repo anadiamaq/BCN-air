@@ -1,6 +1,5 @@
 from pymongo import MongoClient
 from config import MONGO_URL
-from utils.json_response import str_to_json
 
 client = MongoClient(MONGO_URL)
 
